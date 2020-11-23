@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+
+body{
+    height: 100vh;
+    margin: 0;
+    font-family: 'Kumbh Sans', sans-serif;
+    background-color: hsl(185, 75%, 39%) !important;
+    background-image: url("images/bg-pattern-top.svg"), url("images/bg-pattern-bottom.svg");
+    background-position: right 50vw bottom 38vh, left 50vw top 49vh;
+    background-repeat: no-repeat;
+}
+.profile-card{
+    width: 350px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 5%;
+    background-color: #fff;
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.30);
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.30);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.30);
+}
+.banniere{
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+.img-thumbnail{
+    top: 0;
+    right: 0;
+    position: absolute;
+    width: 96px;
+    height: 96px;
+    transform: translate(-130%,95%);
+}
+.description{
+    border-bottom: 1px solid #ddd;
+    
+}
+.description h4{
+    text-align: center;
+    margin-top: 70px;
+    
+    font-size: 18px;
+    font-weight: bold;
+}
+.description p{
+    font-size: 14px;
+    color: grey;
+    text-align: center;
+    
+}
+.age{
+    color: grey;
+    font-weight: normal;
+    margin-left: 10px;
+}
+#stats.row{
+   text-align: center;
+    padding: 20px 30px 5px;
+}
+#stats.row h4{
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+#stats.row p{
+    font-size: 12px;
+    line-height: 20px;
+    color: grey;
+}
+.attribution a{
+    text-decoration: none;
+    color: #fff;
+}
